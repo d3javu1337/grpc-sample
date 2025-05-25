@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: server
+  grpc:
+    server:
+      ssl:
+        secure: false
+        enabled: false
+      address: 127.0.0.1:9090
+#      port: 9090
+
+#  reactor:
+#    netty:
+#      shutdown-quiet-period: 10h
+
+#grpc:
+#  server:
+#    port: 9090

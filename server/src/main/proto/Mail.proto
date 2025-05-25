@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package org.d3javu.grpc;
+
+message Mail {
+  string text = 1;
+}
+
+service MailService {
+  rpc SendMail(Mail) returns (Mail) {}
+}

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: client
+grpc:
+  client:
+    authority: 'localhost:9090'
+    stubs: [org.d3javu.client.grpc.MailServiceGrpc.MailServiceBlockingStub]
